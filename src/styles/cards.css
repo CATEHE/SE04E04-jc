@@ -1,0 +1,74 @@
+.card {
+  border: 1px solid;
+  border-radius: 9px;
+  padding: 1.25em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.238), white);
+
+}
+
+.card__name {
+  border-bottom: 1 px solid blanchedalmond;
+  padding-bottom: 1em;
+}
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+  font-size: small;
+}
+
+.card__label {
+  display: block;
+  text-transform: uppercase;
+  color: rgb(141, 147, 152);
+  font-size: medium;
+}
+
+.card__data {
+  display: flex;
+  align-items: center;
+  gap:.25em;
+}
+
+.icon--gift {
+  font-size: 18px;
+}
+
+.card__btns {
+  border-top: 1 px solid blanchedalmond;
+  padding-top: 1em;
+  display: inline-flex;
+  justify-content: flex-end;
+  gap: 0.5em;
+}
+
+.btn--delete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: brown;
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+  font-size: 18px;
+  padding: 0.5em;;
+}
+
+.btn--edit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6ca6bc;
+  border-radius: 5px;
+  color: aliceblue;
+  border: none;
+  font-size: 18px;
+  padding: 0.5em;;
+}
+
+

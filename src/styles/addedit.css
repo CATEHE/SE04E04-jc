@@ -1,0 +1,9 @@
+.form__title {
+  margin-bottom: .5em;
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}

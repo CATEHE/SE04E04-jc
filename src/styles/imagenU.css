@@ -1,0 +1,8 @@
+.img__usuarios {
+  width: 60px;
+  height: 60px;
+  background-image: url('../../public/users.png');
+  background-repeat: repeat;
+}
+
+
